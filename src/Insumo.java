@@ -11,7 +11,7 @@ public class Insumo {
 	public Insumo(String nome) {
 		super();
 		this.nome = nome;
-		this.estoqueNaReserva = true;
+		this.estoqueNaReserva = false;
 		System.out.println(
 				"Foi criado um insumo com o nome de " + nome);
 	}
