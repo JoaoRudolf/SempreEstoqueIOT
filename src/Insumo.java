@@ -2,18 +2,18 @@
 public class Insumo {
 
 	String nome;
-	int quantidadeMinima;
-	int quantidadeAtual;
+	boolean estoqueNaReserva;
+
 
 	public Insumo() {
 	}
 
-	public Insumo(String nome, int quantidadeMinima) {
+	public Insumo(String nome) {
 		super();
 		this.nome = nome;
-		this.quantidadeMinima = quantidadeMinima;
+		this.estoqueNaReserva = true;
 		System.out.println(
-				"Foi criado um insumo com o nome de " + nome + " contendo a quantidade mínima de " + quantidadeMinima);
+				"Foi criado um insumo com o nome de " + nome);
 	}
 
 }
